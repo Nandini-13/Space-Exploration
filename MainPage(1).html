@@ -1,0 +1,140 @@
+<html>
+  
+<head>
+  <title>SpaceMyTrip</title>
+
+  <link rel="stylesheet" href="quarantech.css">
+  
+  <script src="quarantech.js"></script>
+  <link rel="icon">
+  <link rel="icon" href="check.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light" id="nav-bar">
+    <a class="navbar-brand" id="name" href="#home">
+      <img src= "check.png" id="check" class="d-inline-block align-top" alt="My amazing logo can't load" loading="lazy"> SpaceMyTrip  </a>
+    <button class="navbar-toggler" id="toggle" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto" id="tags">
+        <li class="nav-item">
+          <a class="nav-link" href="#control">Control Room</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#launch-site">Launch Site</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div id='home'>
+
+    <video autoplay muted loop id="myVideo">
+      <source src="intro.mp4" type="video/mp4">
+    </video>
+    <div id="another">
+      <b>
+        <p style="font-family: 'Poppins', sans-serif;font-size: 350%;">The Ultimate Solar System Tour</b>
+      </p>
+      <br>
+      <p style="font-size: 180%; color: aquamarine; font-family: Verdana, Geneva, Tahoma, sans-serif; font-style: italic;">
+        Places you never thought you'd visit </p>
+      <br>
+      <br>
+      <a href="#control">
+        <button id="my-button">Let's Go!</button>
+      </a>
+    </div>
+  </div>
+
+  <div class="section" id="control">
+
+    <div id="about">
+      <h1>CONTROL ROOM</h1>
+      <br>
+      <p style="font-size: 120%;">
+        We, at SpaceMyTrip, provide an out-of-the-world service (literally!) for space enthusiasts. Our website presents the tour
+        of special sites in the Solar System. These places are wondrous but not acknowledged by most people.
+        <br> Your guide, Jaadoo , will accompany you in this tour.
+        
+      </p>
+    </div>
+    
+    <img src="blue-man.png" style="height: 60vh; background-color: whitesmoke; border-top: 0.5vh solid black;    border-right: 0.5vh solid black; border-bottom: 0.5vh solid black;">
+    
+    <iframe id="launch-site" style="margin-top: 45%; height: 10px; visibility: hidden;">  </iframe>
+  </div> 
+  <div class="section" id="launch">
+    <div class="content">
+      <img src="undraw_relaunch_day_902d.png" id="pic">
+      <div id="write">
+        <H1 style="color: white;">LAUNCH SITE</H1>
+        <br>
+        <br>
+        <h2 style="color: rgb(128, 128, 128);">T-5 SECONDS.</h2>
+        <br>
+        <h3 style="color: white;">5. &nbsp 4. &nbsp 3. &nbsp 2. &nbsp 1 &nbsp -:</h3>
+        <br>
+        <a href="Solar.html" id="lift">LIFT OFF!</a>
+        
+        <iframe id="contact" style="margin-top: 15%; z-index: 10; height: 10px; visibility: hidden;" ></iframe>
+
+
+      </div>
+    </div>
+
+  </div>
+
+  <a href="#home" id="round">
+    <img src="top-page.png" id="icon">
+  </a>
+  <div>
+    <h1 id="houston" style="margin-top: 4% ;"> Contact
+    </h1>
+
+  <div id="flex">
+      <div id="links">
+          <a href="https://github.com/Nandini-13"><img src="https://image.flaticon.com/icons/png/512/25/25231.png" class="btn" /></a>
+          <a href="https://www.hackerrank.com/Astro_Nandini?hr_r=1"><img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands-1/512/160_Hackerrank_logo_logos-512.png" class="btn" /></a>
+         <a href="https://www.instagram.com/nandini.leo/"><img src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-2-512.png" class="btn" /></a>
+      </div>
+      <form>
+          <input class="inp" type="email" placeholder="Enter your email for a follow-up" required>
+          <textarea class="inp" rows="4" placeholder="Enter your message for us..."></textarea>
+          <br/>
+          <input type="submit" value="Send" id="send" />
+      </form>
+  </div>
+  </div>
+  <div id="footer">
+
+    We accept payment through StarBucks too![Pun intended]
+    <br>
+    <br> Developed by G.Nandini (D.P.S. Rohini)
+    <br>
+    <br> Jaadoo sends his love!!
+    <i class="fa fa-heart-o" style="font-size:24px"></i>
+
+  </div>
+  <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
