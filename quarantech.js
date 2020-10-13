@@ -1,5 +1,3 @@
-// form not the main concern for web itinerary.
-// leave as it is if short of time
 
 function myFunction() {
     // window.location.reload();
